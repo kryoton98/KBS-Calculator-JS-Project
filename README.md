@@ -27,4 +27,4 @@ This calculator is built using HTML, CSS, and JavaScript. You can either open th
 1. **Clone or Download the Repository**  
    Clone the repository using:
    ```bash
-   git clone https://github.com/<your-username>/KBS-Calculator-JS-Project.git
+   git clone https://github.com/kryoton98/KBS-Calculator-JS-Project.git
