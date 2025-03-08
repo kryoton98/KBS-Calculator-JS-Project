@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Calculator Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h1>Calculator</h1>
+    <div class="calculator">
+      <div class="display">
+        <div class="equation" id="equation"></div>
+        <div class="result" id="display">0</div>
+      </div>
+      <div class="buttons">
+        <button class="btn function" data-action="clear">C</button>
+        <button class="btn function" data-action="toggle-sign">+/-</button>
+        <button class="btn function" data-action="percentage">%</button>
+        <button class="btn operator" data-action="divide">÷</button>
+        
+        <button class="btn number" data-digit="7">7</button>
+        <button class="btn number" data-digit="8">8</button>
+        <button class="btn number" data-digit="9">9</button>
+        <button class="btn operator" data-action="multiply">×</button>
+        
+        <button class="btn number" data-digit="4">4</button>
+        <button class="btn number" data-digit="5">5</button>
+        <button class="btn number" data-digit="6">6</button>
+        <button class="btn operator" data-action="subtract">-</button>
+        
+        <button class="btn number" data-digit="1">1</button>
+        <button class="btn number" data-digit="2">2</button>
+        <button class="btn number" data-digit="3">3</button>
+        <button class="btn operator" data-action="add">+</button>
+        
+        <button class="btn number zero" data-digit="0">0</button>
+        <button class="btn number" data-digit=".">.</button>
+        <button class="btn equals" data-action="calculate">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
