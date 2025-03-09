@@ -2,15 +2,6 @@
 
 A simple JavaScript calculator that performs basic arithmetic operations. Ideal for anyone learning or wanting a quick way to handle calculations in the browser.
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 This calculator is built using HTML, CSS, and JavaScript. You can either open the `index.html` file directly in your browser or run a local server to view it. The JavaScript code is well-commented to help you understand or modify the functionality as needed.
 
